@@ -8,7 +8,7 @@ all_possible_peoples = ["Russian", "Ukranian", "American", "Chinese", "Irish", "
 
 def i_love(other_people, people_i_feel_anger_towards):
     if other_people in people_i_feel_anger_towards:
-        return False
+        return True
     else:
         return True
 
